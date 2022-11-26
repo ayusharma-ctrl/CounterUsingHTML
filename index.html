@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page Title -->
+    <title>Counter Using HTML</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- This is a div for heading -->
+    <div id="div1"> 
+        <h1>Counter using HTML</h1>
+    </div>
+
+    <!-- This is a div for count -->
+    <div id="div2"> 
+            Your Current Count is : 
+            <span> 
+                <b> 1 </b> 
+            </span>
+    </div>
+
+    <!-- This is a div for Error Message -->
+    <div id="div3">  </div>
+
+    <!-- This is a div for the buttons -->
+    <div id="div4"> 
+
+        <!-- We can make the use of OnClick function by using these two ways -->
+        <!-- Either describe it as an Attribute or in the JavaScript sheet -->
+        <button id="button1" onclick="decrement()"> Decrement </button>
+
+        <button id="button2" onclick="increment()"> Increment </button>
+
+        <button id="button3"> Clear </button>
+    </div>
+
+
+    <script src="script.js" ></script>
+</body>
+</html>
