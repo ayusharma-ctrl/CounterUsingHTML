@@ -20,7 +20,7 @@ function decrement(){
         number.innerHTML--;
     }
 
-    if(number.innerHTML==0){
+    else if(number.innerHTML==0){
         error.innerHTML = 'Error : Cannot go below 0'
         buttonClear.style.display = 'none'
     }
