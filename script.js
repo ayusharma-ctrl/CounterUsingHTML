@@ -5,11 +5,15 @@ var number = document.getElementsByTagName('b')[0];
 var error = document.getElementById('div3');
 var buttonClear = document.getElementById('button3');
 
+buttonClear.style.display = 'none'
+
 // function to increase the value of count 
 function increment(){
     number.innerHTML++;
     error.innerHTML = ''
+    if(number.innerHTML>1){
     buttonClear.style.display = 'inline-block'
+    }
 }
 
 // function to decrease the value of count 
